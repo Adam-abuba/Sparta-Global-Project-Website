@@ -5,25 +5,208 @@
     <title>Gaming Hub</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
   <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!--Opening the origin container -->
-    <div class="container-fluid">
-      <div class="row"> <!-- Original Row Open-->
-        <div class="col-md-12 ">
+
+    <div class="container-fluid"> <!--Opening the origin container -->
+      <div class="row"> <!-- R1 Open-->
+        <div class="col-md-12 "> <!-- R1 Open for Navigation Bar, logo and hamburger menu -->
+          <nav class="navbar3">
+            <a class="navbar-brand" href="#">Gamer's Hub</a>
+            <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-nav3" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="app-nav3">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Favourite Games </a></li>
+                <li><a href="#">Gaming Platforms</a></li>
+                <li><a href="#">Upcoming Games</a></li>
+                <li><a href="#">About</a></li>
+              </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+        </div> <!-- Closing tag for the top Nav bar Column -->
+
+      </div> <!-- R1 Closing -->
+      <div class="row"> <!-- Original 2nd row open -->
+        <div class="col-md-2"> <!-- R2-C1 Open for side navigation within the page -->
+
+  <ul class="nav nav-pills nav-stacked side-menu" data-spy="affix" data-offset-top="205">
+    <li><a href="#Multiplayer" class="sides">Multiplayer Games</a></li>
+    <li><a href="#Action" class="sides">Action Games</a></li>
+    <li><a href="#RPG" class="sides">RPGs</a></li>
+  </ul>
+
+        </div> <!-- R2-C1 Close for side bar navigation within page -->
+        <div class="col-md-10"><!-- R2-C2 Open for main page content -->
+          <div class="page-header">
+            <h1>Adam's Most Played<small> In Various Categories</small></h1>
+          </div>
+          <div class="row"> <!--R2-C2-R1 Open for Multiplayer Games -->
+            <div class="col-md-12"> <!--R2-C2-R1-C1 Open for Multiplayer games -->
+              <h2><span id="Multiplayer">Multiplayer Games</span></h2>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <img src="images/LoL_logo.png" alt="League of Ledgends Logo">
+                  <div class="caption">
+                  <h3>League of Ledgends</h3>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. <br>
+                  IGN: ....
+                  <p><a href="https://play.euw.leagueoflegends.com/en_GB" target="_blank"class="btn btn-primary" role="button">Find out More</a> </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img src="images/Osu!Logo.png" class="Osu-Logo"alt="Osu Logo">
+                <div class="caption">
+                <h3>Osu!</h3>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. <br>
+                IGN: ....
+                <p><a href="https://osu.ppy.sh/home" target="_blank"class="btn btn-primary" role="button">Find out More</a> </p>
+
+                </div>
+              </div>
+            </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <img src="images/WFLogo.png" alt="Warframe Logo">
+                    <div class="caption">
+                      <h3>Warframe <small> Ninjas Play Free</small></h3>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.<br>
+                      Platform: Steam <br>
+                      Hours Played:...</p>
+                      <p><a href="http://store.steampowered.com/app/230410/Warframe/" class="btn btn-primary" role="button" target="_blank">Find out more</a> </p>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- R2-C2-R1-C1 Close for Multiplayer -->
+
+            </div> <!--R2-C2-R1 Close for Multiplayer -->
+            <div class="row"> <!-- R2-C2-R2 Open for Action -->
+              <div class="col-md-12"> <!--R2-C2-R2-C1 Open for Action -->
+                <h2><span id="Action">Action Games</span></h2>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <img src="images/DS2Logo.png" alt="Dark Souls 2 Logo">
+                    <div class="caption">
+                      <h3>Dark Souls 2 <small>Scholar of the First Sin</small></h3>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.<br>
+                      Platform: Steam <br>
+                      Number of deaths: <br>
+                      Hours Played:...</p>
+                      <p><a href="http://store.steampowered.com/app/335300/DARK_SOULS_II_Scholar_of_the_First_Sin/" class="btn btn-primary" role="button" target="_blank">Find out more</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <img src="images/DS2Logo.png" alt="Dark Souls 2 Logo">
+                    <div class="caption">
+                      <h3>Dark Souls 2 <small>Scholar of the First Sin</small></h3>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.<br>
+                      Platform: Steam <br>
+                      Number of deaths: <br>
+                      Hours Played:...</p>
+                      <p><a href="http://store.steampowered.com/app/335300/DARK_SOULS_II_Scholar_of_the_First_Sin/" class="btn btn-primary" role="button" target="_blank">Find out more</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <img src="images/DS2Logo.png" alt="Dark Souls 2 Logo">
+                    <div class="caption">
+                      <h3>Dark Souls 2 <small>Scholar of the First Sin</small></h3>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.<br>
+                      Platform: Steam <br>
+                      Number of deaths: <br>
+                      Hours Played:...</p>
+              <p><a href="http://store.steampowered.com/app/335300/DARK_SOULS_II_Scholar_of_the_First_Sin/" class="btn btn-primary" role="button" target="_blank">Find out more</a> </p>
+                    </div>
+                  </div>
+                </div>
+              </div> <!--R2-C2-R2-C1 Close for Action -->
+
+            </div> <!-- R2-C2-R2 Closed for Action -->
+            <div class="row"> <!-- R2-C2-R3 Open for RPGs -->
+              <div class="col-md-12"> <!--R2-C2-R3-C1 Open for RPGs -->
+                <h2 id="RPG"></a>Role-Playing Games</h2>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <img src="images/FF13Logo.png" alt="FFXIII Logo">
+                    <div class="caption">
+                      <h3>Final Fantasy 13 <small></small></h3>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.<br>
+                      Platform: Steam <br>
+                      Number of deaths: <br>
+                      Hours Played:...</p>
+                      <p><a href="http://store.steampowered.com/app/292120/FINAL_FANTASY_XIII/" class="btn btn-primary" role="button" target="_blank">Find out More</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <img src="images/FF13Logo.png" alt="FFXIII Logo">
+                    <div class="caption">
+                      <h3>Final Fantasy 13 <small></small></h3>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.<br>
+                      Platform: Steam <br>
+                      Number of deaths: <br>
+                      Hours Played:...</p>
+                      <p><a href="http://store.steampowered.com/app/292120/FINAL_FANTASY_XIII/" class="btn btn-primary" role="button" target="_blank">Find out more</a> </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <img src="images/FF13Logo.png" alt="FFXIII Logo">
+                    <div class="caption">
+                      <h3>Final Fantasy 13 <small></small></h3>
+                      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.<br>
+                      Platform: Steam <br>
+                      Number of deaths: <br>
+                      Hours Played:...</p>
+                      <p><a href="http://store.steampowered.com/app/292120/FINAL_FANTASY_XIII/" class="btn btn-primary" role="button" target="_blank">Find out more</a> </p>
+                    </div>
+                  </div>
+                </div>
+              </div> <!--R2-C2-R3-C1 Close for RPGs -->
+
+            </div> <!-- R2-C2-R3 Closed for RPGs -->
+        </div><!--R2-C2-10 Close for main content -->
+      </div> <!-- R2 close -->
+      <div class="row"> <!--R3 Open for footer -->
+        <div class="col-md-6 col-md-push-3">
+          <h1 class="curs">Support me!</h1>
+        </div>
+        <div class="col-md-6 "> <!--R3-C2 Open for Support Me icon links -->
+          <footer class="center-block">
+
+              <a href="https://www.twitch.tv/addybobu" target="_blank" class="FootIcons"><i class="fab fa-twitch fa-7x"></i></a></li>
+              <a href="https://steamcommunity.com/id/addybobo"  target="_blank" class="FootIcons"><i class="fab fa-steam-square fa-7x"></i></a>
+              <a href="#" class="FootIcons"><i class="fab fa-discord fa-7x"></i></a>
+              <a href="https://store.steampowered.com/wishlist/id/addybobo/#sort=order" class="FootIcons"><i class="fas fa-heart fa-7x" target="_blank"></i></a>
+          </footer>
 
         </div>
-
-      </div>
-
-    </div>
+      </div> <!-- R3 close for footer-->
+    </div> <!-- Closing container-fluid -->
   </body>
 </html>
