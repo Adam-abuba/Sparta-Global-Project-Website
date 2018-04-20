@@ -1,0 +1,105 @@
+.navbar3{
+    border: 0;
+    border-radius: 0 !important;
+    font-size: 20px;
+    background-image:linear-gradient(to bottom ,#e74c3c 0,#a8221b 100%);
+}
+.navbar3 > .navbar-brand, .navbar-brand:hover, .navbar-brand:focus {
+    color: #ecf0f1;
+    font-size: 30px !important;
+    font-weight: bold;
+}
+.navbar3 .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar3 .navbar-nav>li>a:hover,.navbar3 .navbar-nav>li>a:focus {
+    color: #fff;
+    background-image:linear-gradient(to top ,#e74c3c 0,#c0392b 100%)!important;
+}
+.navbar3 .drop>li>a:focus, .drop>li>a:hover {
+    text-decoration: none;
+    background-color: #fff !important;
+    color: #fff !important;
+}
+.navbar3 .drop .open>a, .nav .open>a:focus, .drop .open>a:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #fff !important;
+}
+.navbar3 .navbar-nav>li>.dropdown-menu {
+    font-size: 18px;
+    background-color: white !important;
+    color: white !important;
+}
+.navbar3 .dropdown-menu>li>a{
+      color: #224867 !important;
+}
+.navbar3 .navbar-toggle {
+    border: 1px solid white;
+}
+.navbar3 .navbar-toggle .icon-bar {
+    background-color: white !important;
+}
+body{
+  background-color: #f2f2f2;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+h1, h2,h3,h4,h5{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+ margin-bottom: 10px;
+ text-transform: uppercase;
+ font-weight: bold;
+ text-shadow: 0 1px 2px rgba(black,.15);
+}
+h1,h2{
+  text-decoration: underline;
+}
+
+h3{
+  font-size: 20px;
+}
+h4{
+  text-align: left;
+}
+
+.side-menu{
+  background-color: #124b9a;
+  color: white;
+  border-style: outset;
+  border-width: thick;
+  border-color: #a8221b;
+}
+.sides{
+  color: white;
+
+}
+.Osu-Logo{
+  height: 35%;
+  width: 35%;
+}
+.media-pics{
+  height: 14vh;
+  width: 10vw;
+}
+.FootIcons{
+  padding: 10px ;
+  display: inline-block;
+}
+.curs{
+  font-family: cursive;
+  color: #337ab7;
+  text-align: left;
+  text-decoration: none;
+}
+@media screen and (max-width: 991px) {
+  .side-menu {
+
+    display: none;
+  }
+  .media-pics-R{
+
+    height: 30vh;
+    width: 30vw;
+  }
+}
