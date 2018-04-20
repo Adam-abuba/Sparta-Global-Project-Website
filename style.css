@@ -44,6 +44,25 @@ body{
   background-color: #f2f2f2;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
+h1, h2,h3,h4,h5{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+ margin-bottom: 10px;
+ text-transform: uppercase;
+ font-weight: bold;
+ text-shadow: 0 1px 2px rgba(black,.15);
+}
+h1,h2{
+  text-decoration: underline;
+}
+
+h3{
+  font-size: 20px;
+}
+h4{
+  text-align: left;
+}
+
 .side-menu{
   background-color: #124b9a;
   color: white;
@@ -70,10 +89,17 @@ body{
 .curs{
   font-family: cursive;
   color: #337ab7;
+  text-align: left;
+  text-decoration: none;
 }
 @media screen and (max-width: 991px) {
   .side-menu {
 
     display: none;
+  }
+  .media-pics-R{
+
+    height: 30vh;
+    width: 30vw;
   }
 }
